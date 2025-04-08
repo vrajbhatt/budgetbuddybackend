@@ -8,7 +8,7 @@ routes.get("/reports", reportController.getAllReports);
 routes.get("/reports/user/:userId", reportController.getReportByUserId);
 
 // Get report by ID
-routes.get("/reports/:id", reportController.getReportById);
+// routes.get("/reports/:id", reportController.getReportById);
 
 // Add new report
 routes.post("/reports", reportController.addReport);

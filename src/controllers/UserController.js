@@ -179,7 +179,7 @@ const getUserById = async (req,res)=>{
 
   const foundUser = await userModel.findById(req.params.id)
   res.json({
-    message:"user fatched..",
+    message:"user fetched..",
     data:foundUser
   })
 

@@ -10,16 +10,16 @@ routes.post("/admin/login", adminController.adminLogin);
 routes.get("/users",  adminController.getAllUsers);
 routes.delete("/admin/users/:id",  adminController.deleteUser);
 
-// **Transaction Management**
-routes.get("/admin/transactions",  adminController.getAllTransactions);
-routes.delete("/admin/transactions/:id",  adminController.deleteTransaction);
+// // **Transaction Management**
+// routes.get("/user/transactions",  adminController.getAllTransactions);
+// routes.delete("/admin/transactions/:id",  adminController.deleteTransaction);
 
-// **Financial Goals Management**
-routes.get("/admin/financial-goals",  adminController.getAllFinancialGoals);
-routes.delete("/admin/financial-goals/:id",  adminController.deleteFinancialGoal);
+// // **Financial Goals Management**
+// routes.get("/user/financial-goals",  adminController.getAllFinancialGoals);
+// routes.delete("/admin/financial-goals/:id",  adminController.deleteFinancialGoal);
 
-// **Reports & Notifications**
-routes.get("/admin/reports/summary",  adminController.getReportsSummary);
-routes.post("/admin/notifications",  adminController.sendNotification);
+// // **Reports & Notifications**
+// routes.get("/admin/reports/summary",  adminController.getReportsSummary);
+// routes.post("/admin/notifications",  adminController.sendNotification);
 
 module.exports = routes;
